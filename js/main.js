@@ -1,3 +1,8 @@
+const addBtn = document.querySelector(`.btn__add`);
+const inputCountry = document.querySelector(`#name`);
+const inputDate = document.querySelector(`#date`);
+const inputText = document.querySelector(`#text`);
+
 const options = {
   url: `https://restcountries.com/v2/all?fields=name,flag`,
   getValue: `name`,
@@ -18,3 +23,8 @@ const options = {
 };
 
 $(`#name`).easyAutocomplete(options);
+
+
+function addItem() {
+  
+}
